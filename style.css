@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    color: black; 
+}
+
+.MAIN-OUTER-DIV{
+    width: 100vw;
+    height: 800vh;
+    /* border: 2px solid red; */
+    /* background-color: blue; */
+}
+.firstSection{
+    width: 100%;
+    height: 15%;
+    /* border: 2px solid blue; */
+    /* background-color: green; */
+    
+    
+}
+.navBar{
+    /* border: 2px solid black; */
+    height: 1%;
+    width: 100%;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    
+}
+.navBar nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    
+
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:100;
+    
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    
+    opacity: 70%;
+    
+}
+nav ul li a:hover{
+    color: #FED233;
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+.navBar img{
+    width: 20px;
+}
+.navBar img:hover{
+    
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.firstSection .firstSectionTop{
+    /* border: 1px solid red; */
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.firstSectionTop .firstSectionDiv1{
+    /* border: 1px solid black; */
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    background: #FED233;
+    opacity: 0.6;
+    filter: blur(277px);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.firstSectionTop .firstSectionDiv2{
+    width: 600px;
+    height: 100%;
+    /* border: solid 1px black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-style: italic;
+    /* margin-bottom: 30px; */
+    font-weight: bold;
+}
+
+.firstSectionTop .firstSectionDiv2 span{
+    color: #FED233;
+}
+
+
+.firstSectionTop .firstSectionDiv3{
+    /* border: 1px solid black; */
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    background: #FED233;
+    opacity: 0.6;
+    filter: blur(277px);
+    margin-top: 80px;
+    margin-right: 50px;
+}
+.firstSectionBottom{
+    /* border: 2px solid blue; */
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.firstSectionBottom .firstSectionDiv4{
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+.firstSectionBottom .firstSectionDiv5{
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.firstSectionBottom .firstSectionDiv6{
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 100px;
+    box-shadow: 0px 4px 4px rgba(1, 0, 0, 0.25);
+}
+
+.firstSectionBottom img{
+    width: 300px;
+    height: 300px;
+    
+}
+
+.firstSectionBottom img:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.firstSectionBottom .firstSectionDiv5 img{
+    width: 500px;
+    height: 500px;
+}
+.secondSection{
+    width: 100%;
+    height: 10%;
+    /* border: 2px solid red; */
+    /* background-color: aqua; */
+}
+.secondSection .secondSectionTop{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.secondSectionTop .secondSectionTopLeft{
+    width: 900px;
+    height: 100%;
+    /* border: 1px solid red; */
+    margin-left: -150px;
+    /* background-color: aqua; */
+    color: black;
+    margin: 0;
+    padding-left: 50px;
+    
+
+}
+.secondSectionTop .secondSectionTopLeft span{
+    color: #FED233;
+}
+.secondSectionTop .SecondSectionTopRight{
+    width: 200px;
+    height: 400px;
+    /* border: 1px solid blue; */
+    background: #FED233;
+    padding-right: 30px;
+    
+}
+.secondSectionTop .secondSectionTopLeft h1{
+    font-style: italic;
+}
+.secondSectionTop .secondSectionTopLeft p{
+    margin-top: 10px;
+}
+
+.secondSectionBottom{
+    width: 100%;
+    height: 60%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondSectionBottom .secondSectionBottomLeft{
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 90%;
+}
+.secondSectionBottom .secondSectionBottomRight{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 90%;
+    
+}
+.secondSectionBottom .secondSectionBottomRight img{
+    width: 700px;
+    height: 400px;
+}
+.thirdSection{
+    width: 100%;
+    height: 10%;
+    /* border: 2px solid blue; */
+    /* background-color: #FED233; */
+}
+
+.thirdSection .thirdSectionTop{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid black; */
+    margin-left: 50px;
+}
+.ThirdSectionBottom{
+    /* border: 2px solid red; */
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+} 
+
+.ThirdSectionBottom .ThirdSectionBottomLeft{
+    height: 85%;
+    width: 40%;
+    /* border: 2px solid black; */
+    margin-left: -80px;
+}
+.ThirdSectionBottom .ThirdSectionBottomLeft img{
+    width: 115%;
+    height: 400px;
+    box-shadow: -40px 40px #FED233;
+}
+
+
+.ThirdSectionBottom .ThirdSectionBottomRight{
+    width: 40%;
+    height: 100%;
+    /* border: 2px solid black; */
+}
+
+.FourthSection{
+    height: 10%;
+    width: 100%;
+    /* border: 2px solid blue; */
+}
+
+.FourthSection .FourthSectionTop{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    padding-left: 50px;
+}
+
+.FourthSection .FourthSectionBottom{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+
+    
+    
+
+}
+
+.FourthSectionBottom .FourthSectionBottomLeft{
+    width: 40%;
+    height: 100%;
+    /* border: 2px solid black; */
+    padding-left: 40px;
+   
+}
+.FourthSectionBottom .FourthSectionBottomLeft .profile{
+    width: 40px;
+}
+
+.FourthSectionBottom .FourthSectionBottomRight{
+    width: 45%;
+    height: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+}
+.FourthSectionBottom .FourthSectionBottomRight img{
+    width: 100%;
+    height: 85%;
+    box-shadow: 60px -60px #FED233;
+    
+}
+.FifthSection{
+    height: 12%;
+    width: 100%;
+    /* border: 2px solid green; */
+}
+.FifthSection .FifthSectionTop{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    padding-left: 50px;
+}
+.FifthSectionBottom{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.FifthSectionBottom .FifthSectionBottomLeft{
+    height: 70%;
+    width: 60%;
+    /* border: 1px solid black; */
+    
+    background-color: #FED233;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+   
+    
+    
+}
+.FifthSectionBottom .FifthSectionBottomRight{
+    height: 100%;
+    width: 60%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+.FifthSectionBottom .FifthSectionBottomRight div{
+    width:250px;
+    height: 250px;
+    /* border: 2px solid red; */
+    box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.07);
+}
+
+.SixthSection{
+    height: 25%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SixthSection .SixthSectionTop{
+    /* border: 1px solid blue; */
+    height: 6%;
+    width: 100%;
+    padding-left: 50px;
+}
+.SixthSection .SixthSectionBottom{
+    /* border: 2px solid red; */
+    height: 94%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+    
+}
+
+.SixthSectionBottom div{
+    /* border: 1px solid black; */
+    height: 50%;
+    width: 40%;
+    
+}
+.SixthSectionBottom div img{
+    width: 100%;
+}
+
+.SeventhSection{
+    /* border: 2px solid red; */
+    height: 20%;
+    /* background-color: yellow; */
+}
+
+.SeventhSection .SeventhSectionTop{
+    /* border: 1px solid black; */
+    height: 10%;
+    width: 100%;
+    padding-left: 50px;
+}
+.SeventhSection .SeventhSectionBottom{
+    /* border: 2px solid blue; */
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: yellow; */
+}
+.SeventhSectionBottom .SeventhSectionBottomLeft{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #FED233;
+}
+
+.SeventhSectionBottom .SeventhSectionBottomLeft div{
+    height: 20%;
+    /* border: 1px solid black; */
+    width: 80%;
+    text-align: center;
+    padding-top: 10px;
+    
+    background-color: rgba(255, 255, 255, 0.5);
+    
+}
+
+.SeventhSectionBottom .SeventhSectionBottomRight{
+    /* border: 1px solid black; */
+    height: 80%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.SeventhSectionBottomRight .SeventhSectionBottomRightTop{
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.SeventhSectionBottomRight .SeventhSectionBottomRightBottom{
+    /* border: 3px solid grey; */
+    box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.07);
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    /* background-color: blue; */
+}
+.SeventhSectionBottomRight .SeventhSectionBottomRightBottom div{
+    /* border: 1px solid red; */
+    height: 80%;
+    width: 50%;
+    background-color: #FED233;
+    display: flex;
+    justify-content: center;
+}
+.SeventhSectionBottomRight .SeventhSectionBottomRightBottom div img{
+    width: 500px;
+   
+}
